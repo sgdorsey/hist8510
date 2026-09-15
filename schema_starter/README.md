@@ -69,3 +69,37 @@ and losing the variation. Pretending the question did not come up is not.
 That is fine and it is what Wednesday is for. Post where you got stuck rather
 than nothing at all. A schema that fails with an error you cannot read is more
 useful to the room than a schema you did not attempt.
+
+
+if __name__ == "__main__": #means that this entire file is only going to run if someone executes the file directly (it's common in python to import files into another one - this means that if you were to import this, the script would have acess to the constants but wouldn't run the main database function)
+    main()
+
+
+like taking attendance
+left join is the roster, right table is sign in sheet
+Absent students still get a line on the roster, but they won't come up as being in attendance
+
+SQLite Order of execution
+#  Clause. What it does
+1 - FROM/JOIN - assemble the working table
+2 - WHERE - throw out rows
+3 - GROUP BY - collapse rows into groups
+4 - HAVING - throw out groups
+5 - SELECT - choose and compute columns
+6 - ORDER BY - sort
+7 - LIMIT - trim
+
+EX. QUERY:
+SELECT county, COUNT(*) AS n (#5)
+FROM church (1)
+JOIN city c ON (1) 
+WHERE ch.year_organized>1900 (2)
+GROUP BY c.county (3)
+HAVING COUNT(*)>5 (4)
+ORDER BY n DESC (6)
+
+Notes on database - first query works well. You hardcoded the city ids, but if the numbers weren't in sequential order (24-35, 50-100) it would be harder - query based on county as a join (see photo)
+County column is in two place, needs to be in two places ()
+
+second query is written right, there's a problem in the data (Abbeville and Arcadia Mill are doubled - go back and delete them in the city_id link).
+When you create the scheme, add unique city name and county to keep this from happening.

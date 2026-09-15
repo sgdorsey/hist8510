@@ -22,13 +22,15 @@
 
 -- Start clean, in reverse order of creation. You cannot drop a table
 -- that another table still points at.
+DROP TABLE IF EXISTS church_pastor;
 DROP TABLE IF EXISTS church;
+DROP TABLE IF EXISTS people;
 DROP TABLE IF EXISTS city;
 
-#Specifically designed to delete the tables for teaching purposes; throw away the previous structure and create a brand new one
-# if you have an app running on top of this and you change something in the app, drop table will overwrite anything in the app
-# if you do everything on excel and import, you may want to keep this
-#in MGG, they don't have these because they have a live database on the internet. They have a sequel script that they individually edit each time so it's not rewritten every time.
+-- Specifically designed to delete the tables for teaching purposes; throw away the previous structure and create a brand new one
+-- if you have an app running on top of this and you change something in the app, drop table will overwrite anything in the app
+-- if you do everything on excel and import, you may want to keep this
+-- in MGG, they don't have these because they have a live database on the internet. They have a sequel script that they individually edit each time so it's not rewritten every time.
 
 -- ---------------------------------------------------------------------
 -- Table 1 — probably your lookup or "one" side
@@ -38,7 +40,8 @@ DROP TABLE IF EXISTS city;
 
  CREATE TABLE city (
     city_id    INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
+    city_name TEXT NOT NULL,
+    county TEXT NOT NULL,
     state TEXT NOT NULL
  );
 
@@ -61,23 +64,30 @@ CREATE TABLE church (
      name_of_church       TEXT NOT NULL,
      year_organized INTEGER NOT NULL,
      county TEXT NOT NULL,
+     -- The WPA survey left these blank for roughly half the churches, so
+     -- they are nullable: a missing value is real information, not a zero.
+     denomination TEXT NOT NULL,
+     property_value INTEGER,
+     present_membership INTEGER,
+     charter_membership INTEGER,
      city_id    INTEGER NOT NULL,      -- foreign key goes on the many side
      FOREIGN KEY (city_id) REFERENCES city (city_id)
  );
 
 
-#add county to location table with city and state
+-- add county to location table with city and state
 
 
 -- Table 3: Pastor table
 
-CREATE TABLE pastor (
-    pastor_id INTEGER PRIMARY KEY,
+CREATE TABLE people (
+    people_id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
-    years_served TEXT NOT NULL
+    type TEXT NOT NULL,
+    years_active TEXT NOT NULL
 );
-#people table and connect the people to the church - can include surveyors and type (mill owner, surveyor, minister)
-#another many to many 
+-- people table and connect the people to the church - can include surveyors and type (mill owner, surveyor, minister)
+-- another many to many
 -- ---------------------------------------------------------------------
 -- Table 4 — the junction table
 -- ---------------------------------------------------------------------
@@ -91,12 +101,12 @@ CREATE TABLE pastor (
 -- topic_3, or a single column holding "war, pensions, land" with commas
 -- in it, that is a many-to-many asking for a junction table.
 --
-CREATE TABLE church_pastor (
+CREATE TABLE church_people (
     church_id    INTEGER NOT NULL,
-    pastor_id    INTEGER NOT NULL,
-    PRIMARY KEY (church_id, pastor_id),
+    people_id    INTEGER NOT NULL,
+    PRIMARY KEY (church_id, people_id),
     FOREIGN KEY (church_id) REFERENCES church (church_id),
-    FOREIGN KEY (pastor_id) REFERENCES pastor (pastor_id)
+    FOREIGN KEY (people_id) REFERENCES people (people_id)
 );
 
 

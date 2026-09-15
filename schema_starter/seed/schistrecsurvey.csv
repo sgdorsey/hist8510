@@ -1,0 +1,71 @@
+﻿church_id,name_of_church,denomination,date_organized,city_name,street_address,county,state,sourceid,worker.name,wpa.number,mill_relation,church_origin,mill_id,property_value,present_membership,charter_members,"African,American",budget,outcome_id,avg.current.attendance,latitude,longitude,outcome.source,outcome_notes,notes
+wpasptbg135,Assembly of God ,Assembly of God ,1936,Spartanburg,Corner Wofford and Wolfe St,Spartanburg,SC,,Lina Lanning,135,0,1,,,,,,,,,,,,,
+wpasptbg107,Chesnee Mill,Southern Baptist Convention,1928,Chesnee,Hwy 221 - Chesnee Mill Village,Spartanburg,SC,,Jean Taylor,107,3,0,,,,,,,,,,,,,
+wpa_shellanderson_sptbg,Shell Anderson Memorial,Methodist Episcopal South,1933,Jackson Mill,st not named,Spartanburg,SC,,Jean Taylor,173,1,0,,,,,,,,,,,,,
+wpa_whitneymes_sptbg,Whitney,Methodist Episcopal South,1888,Whitney Mill Village,Main St,Spartanburg,SC,,Jean Taylor,1,5,2,,,,,,,,,,,,,
+,Duncan,Southern Baptist Convention,1875,1/4 mile east of Duncan,on county rd,Spartanburg,SC,,,,6,0,,,,,,,,,,,,,
+,Grace Methodist,Methodist Episcopal South,1896,Abbeville,corner south main and brooks streets,Abbeville,SC,,,,7,0,,,,,,,,,,,,,
+,Tucapau Wesleyan Methodist,Wesleyan Methodist,1917,Tucapau Mill Village,Pine St,Spartanburg,SC,,,,2,0,,,,,,,,,,,,,
+,Pentecostal Holiness Tabernacle,Pentecostal Holiness,1935,Arcadia Mill Village,county home rd 1.5 north of Arcadia Mill Village,Spartanburg,SC,,,,8,1,,,,,,,,,,,,,
+,Saxon Methodist,Methodist Episcopal South,1901,Saxon Mill Village,Front Street,Spartanburg,SC,,,,5,0,,,,,,,,,,,,,
+,Lyman Methodist,Methodist Episcopal South,1924,Lyman Mill Village,corner of Grace and Community Streets,Spartanburg,SC,,,,2,2,,,,,,,,,,,,,
+,First Baptist Clifton,Southern Baptist Convention,1881,Clifton Mill Village,High Street,Spartanburg,SC,,,,2,0,,,,,,,,,,,,,
+,Glendale Baptist,Southern Baptist Convention,1876,Spartanburg,corner of Church and Clifton St,Spartanburg,SC,,,,2,0,,,,,,,,,,,,,
+,Montgomery Memorial Methodist Episcopal,Methodist Episcopal South,1883,Pacolet Mill Village,Main St,Spartanburg,SC,,,,3,2,,,,,,,,,,,,,
+,Duncan Memorial,Methodist Episcopal South,1888,Spartanburg,Farley Avenue,Spartanburg,SC,,,,6,0,,,,,,,,,,,,,
+,Saxon Church of God,Church of God,1928,Saxon Mill Village,Fairforest Road,Spartanburg,SC,,,,6,1,,,,,,,,,,,,,
+,Olivet Foursquare Gospel,International Four Square Gospel,1930,Beaumont Mill Village,Fairview Heights Community,Spartanburg,SC,,,,6,1,,,,,,,,,,,,,
+,Apalache,Southern Baptist Convention,1906,Apalache Mill,Odgen Cove,Spartanburg,SC,,,,3,0,,,,,,,,,,,,,
+,Whitney Baptist,Southern Baptist Convention,1889,Whitney Mill Village,Main St,Spartanburg,SC,,,,3,2,,,,,,,,,,,,,
+,Drayton Methodist,Methodist Episcopal South,1905,Spartanburg,corner of Drayton + Britton St,Spartanburg,SC,,,,2,3,,,,,,,,,,,,,
+,Valley Falls Baptist,Southern Baptist Convention,1920,Valley Falls Mill Village,stree not numbered,Spartanburg,SC,,,,6,3,,,,,,,,,,,,,
+,Beaumont,Southern Baptist Convention,1905,Spartanburg,717 N. Liberty St,Spartanburg,SC,,,,6,0,,,,,,,,,,,,,
+,Calhoun Falls Methodist,Methodist Episcopal South,1908,Calhoun Falls,Jackson St,Abbeville,SC,,,,"1, 6",1,,,,,,,,,,,,,
+,Fairmont Baptist,Southern Baptist Convention,1895,"Fairmont Mill Village, no st no",,Spartanburg,SC,,,,"2, 6",0,,,,,,,,,,,,,
+,Tucapau Baptist,Southern Baptist Convention,1893,Tucapau Mill Village,Tucapau mill village no street,Spartanburg,SC,,,,1,3,,,,,,,,,,,,,
+,Pacolet Mills Pentecostal Holiness,Pentecostal Holiness,1935,Pacolet Mill Village,Pacolet Mill village,Spartanburg,SC,,,,"2, 6",0,,,,,,,,,,,,,
+,Church of God,Pentecostal Holiness,1936,Brandon Mill,Poole St.,Spartanburg,SC,,,,"1, 3, 6",,,2000,,18,,,,,,,,,
+,Cole Chapel,Free Will Baptist,12/28/08,Arcadia Mill Village,Temple St.,Spartanburg,SC,,,,,,,,,,,,,,,,,,
+,Converse Methodist,Methodist Episcopal South,1896,Converse Mill,Church St.,Spartanburg,SC,,,,"1, 6, 9",,,3500,87,18,,,,,,,,,
+,Cowpens Mills (formerly Central),Southern Baptist Convention,1901,Cowpens,Church St.,Spartanburg,SC,,,,6,4,,2000,132,30,,,,,,,,,
+,Gospel First,First Assembly of God,1936,Spartanburg,Corner Magnolia + Pearl Sts.,Spartanburg,SC,,,,,"1, 4",,,,,,,,,,,,,
+,Inman Mills,Methodist Episcopal South,11/15/25,Inman,Main St,Spartanburg,SC,,,,"1, 2, 9",,,16000,227,41,,,,,,,,,
+,Ligon Memorial Baptist,Southern Baptist Convention,1907,Arcadia Mill Village,114 Commerce St,Spartanburg,SC,,,,"1, 4, 6, 8",0,,25000,635,58,,,,,,,,,
+,Montgomery Chapel,National Baptist,1923,Maysville,ca 1 mile west of Pacolet Mills,Spartanburg,SC,,,,"2, 6",2,,1500,40,,yes,,,,,,,,
+,Pacolet Mills Baptist,Southern Baptist Convention,1884,Pacolet Mill Village,Stone,Spartanburg,SC,,,,"2, 6",2,,"60,000",,,,,,,,,,,
+,The Ch. Of God,"Church of God (of which A.J. Tomlinson is overseer, Cleavland, Tenn.)",2/3/38,Abbeville,Procter St.,Abbeville,SC,,,,6,4,,,15,13,,,,,,,,,
+,Tucapau M. E.,Methodist Episcopal South,1894,Tucapau Mill Village,Chestnut St.,Spartanburg,SC,,,,"1, 2, ",,,"6,000",,,,,,,,,,,
+,Whitney Free Will ,Free Will Baptist,1921,Whitney Mill Village,[Dawson or Damson] St.,Spartanburg,SC,,,,"1, 3, 6",0,,3000,71,15,,,,,,,,,
+,Orrville Methodist,Methodist Episcopal South,Oct-00,Anderson,2018 South Main St,Anderson,SC,,Fred A. Wood,37,"1, 6",2,,"15,000",250,12,,,3,,34.483159,-82.647842,,Resolution concludes 6/27/2012,Orrville Mill
+,Orrville Baptist,Southern Baptist Convention,1900,Anderson,42 Hammett St,Anderson,SC,,Fred A. Wood,38,"1, 6, 5",2,,23500,430,NA,,,3,,34.48111,82.64844,,concluded 8/13/23 - merged w/ FB Simpsonville to create Upstate Church Anderson Campus. Maintains legacy fb page at: https://www.facebook.com/media/set/?set=a.682741037225621&type=3,Orrville
+,Gluck Mill Methodist,Methodist Episcopal South,1904,Anderson,132 Riley St,Anderson,SC,,Fred A. Wood,14,"1, 6",,,4500,115,17,,975,3,,34.45543,82.6614,,appears to actually be Marshall Memorial UMC (131/135 Riley St),"On a charge, worship with Baptist congregation when pastor is away; mill furnished electricity and building"
+,Gluck Mill Baptist,Southern Baptist Convention,1904,Anderson,132 Riley St,Anderson,SC,,Fred A. Wood,15,"1, 6",,,4500,270,23,,,3,,34.45543,82.6614,,May actually be Southside Baptist,
+,Toxaway,Methodist Episcopal South,1900,Anderson,1308 E. Whitner St,Anderson,SC,,Fred A. Wood,29,"1, 3",2,,10000,175,NA,,,1,10,34.50209,82.63077,,,Toxaway Mill
+,Belton Pres,Presbyterian U.S.,1788,Belton,300 Riner St,Anderson,SC,,Fred A. Wood,64,"6, 2",,,17500,NA,NA,,NA,,,,,,,
+,Church of God,"Church of God (Headquarters Cleveland, Tenn.)",1921,Honea Path,Georgia Street (no number),Anderson,SC,,Fred A. Wood,74,"3, 6",2,,7675,,,,,5,,34.4514,82.38822,,Has moved,Chiquola Mill
+,Chiquola Baptist,Southern Baptist Convention,1905,Honea Path,Maryland St (no number),Anderson,SC,,Fred A. Wood,75,"6, 1, 3",2,,18200,341,12,,1928,5,,34.45171,82.3897,https://www.cbchoneapath.com/history,"Moved to another parcel, then moved again",Chiquola Mill
+,Honea Path Baptist,Southern Baptist Convention,1869,Honea Path,South Main (no number),Anderson,SC,,Fred A. Wood,76,,,,,,,,,1,,,,,still present,
+,Trinity Methodist,Methodist Episcopal South,NA,Honea Path,South Main (no number),Anderson,SC,,Fred A. Wood,77,,,,,,,,,1,53,,,,,
+,Chiquola Methodist,Methodist Episcopal South,1907,Honea Path,Chiquola Ave.,Anderson,SC,,Fred A. Wood,78,"6, 1, 3",2,,10000,126,9,,650,1,,34.4451,82.39233,https://www.umdata.org/church?church=270598; https://www.facebook.com/groups/211087205725849/,Split to GMCin 2023 during UMC/GMC split,Chiquola Mill - church inherited the union building that was built by the mill as other churches built their own buildings
+,Bethel,Methodist Episcopal South,1892,Anderson,Corner Bleckley + Piedmont,Anderson,SC,,Fred A. Wood,12,6,,,35000,,,,,2,,34.51152,82.66215,https://www.facebook.com/groups/scpictureproject/posts/1664122080559591/; https://www.umdata.org/church?church=270202,closed 6/30/2017,R.L. Ligon heavily present
+,Riverside Baptist Church,Southern Baptist Convention,1901,Anderson,504 S Gossett St (Google Maps),Anderson,SC,,Fred A. Wood,13,3,,,15000,652,NA,,,1,,34.4974,82.62981,,,
+,Holy Trinity Kreps Memorial,Lutheran,1936,Anderson,215 Broad St,Anderson,SC,,Fred A. Wood,16,10,,,20000,55,30,,2219,1,,,,,,Hipp family is in a memorial window
+,Second Baptist,Southern Baptist Convention,1892,Anderson,Glenn St. At D Street,Anderson,SC,,Fred A. Wood,17,6,,,15750,820,22,,800,3,,34.50967,82.66115,https://www.facebook.com/groups/517701174973537/posts/751750278235291/; deed book,"Becomes Garner Memorial, then Crossover Community Church of the Upstate, then closes. Now Living Hope Church PCA",
+,Oakwood,Southern Baptist Convention,1906,Anderson,Corner Rogers + Simmons St.,Anderson,SC,,Fred A. Wood,25,"1,9",,,10520,750,NA,,,5,,34.513,82.66869,,"Still exists, different location. Bethel Baptist is at the original building from 1978","Originally associated with Cox Mill, when another mill was built 1 mile south of present place it brought about the change of location. All members of church are cotton mill workers"
+,Pendleton Second Baptist,Southern Baptist Convention,Feb-21,Pendleton,Church St.,Anderson,SC,,Fred A. Wood,42,3,,,2000,105,29,,325,"3, 5",,34.64418,82.77591,https://faithpendleton.com/our-story,Same congregation under new name and location; Ambassadors for Christ bought it in 2005 and sold twice in 2024 to two people,Pendleton Mfg. Co. owned the building and provided electricity
+,Church of God,"Holiness (Headquarters Cleveland, Tenn.)",1927,La France,"School Bldg, Circle Street",Anderson,SC,,Fred A. Wood,43,6,1,,2500,51,19,,0,,,34.61003,82.75773,,,"Mary Lynch (missionary from Cleveland, TN) worked with missions at this mill and Pendleton Mill, appeared to be incredibly vital to organization of revival that led to organization of church"
+,The Church of God,Holliness Headquarters in Tenn.,1939,Williamston,at Kellys Crossing,Anderson,SC,,Fred A. Wood,80,2,,,1650,27,8,,275,,,34.62143,82.47755,,,Gossett Mills donated lot
+,Williamston Second Baptist,Southern Baptist Convention,1903,Williamston,First Street (no number),Anderson,SC,,Fred A. Wood,83,"6, 1, 3",2,,8000,285,8,,2000,,,34.61045,82.48254,,,"Used by methodists too, church was given and built by mill company"
+,Wesleyan Methodist,Wesleyan Methodist,1903,Williamston,Front Street (no number),Anderson,SC,,Fred A. Wood,84,"6, 3, 1",1,,1250,23,NA,,400,3,,34.62143,82.47755,https://alivewesleyan.com/church-planting/,"Appears to have become Pleasant View, which became a campus of ALIVE, then collapsed with Pelzer to form EMERGE (still Wesleyan)",revival meeting held at abandoned school house the company rented to them
+,Piedmont Presbyterian,Pres. US,05/18/1880,Piedmont,Anderson Street (no number),Anderson,SC,,Fred A. Wood,85,"1, 3, 9",,,10000,175,9,,2400,,,34.70012,82.46608,,,mill company furnishes parsonage
+,Wesleyan Methodist,Wesleyan Methodist,1904,Piedmont,Anderson Street (no number),Anderson,SC,,Fred A. Wood,86,"3, 9",1,,2425,64,4,,475,2,,34.70012,82.46608,https://www.scwesleyan.org/church-directory,"Not listed on the Wesleyan's directory, no deed payment, google says closed, last fb in november 2023. Grantor search shows it was deed to them by JP Stevens Co (pg. 16)",Mill company renovated parsonage
+,Williamston Mill Methodist,Methodist,1904,Williamston,First Street (no number),Anderson,SC,,Fred A. Wood,87,"6, 1",2,,7000,14,5,,280,,,34.61045,82.48254,,,"Very small, plans made to consolidate with Grace Methodist (also in Williamston)"
+,Tabernacle,Southern Baptist Convention,08/29/1897,Pelzer,Orr Street (no number),Anderson,SC,,Fred A. Wood,89,6,2,,11000(?),537,30,,3250,,,34.6513,82.46213,,,"Members came from Pelzer First Baptist, first organization was known as Pelzer Second Baptist Church (1897-9/1/1903)"
+,Wesleyan Methodist,Wesleyan Methodist,1886,Pelzer,Lebby Street (no number),Anderson,SC,,Fred A. Wood,90,"6, 2, 9, 10, 1",,,11050,215,NA,,950,3,,34.64239,82.46125,,Now Alive Wesleyan - Pelzer Campus. Pelzer Wesleyan Methodist sold to Life Journey Church (Welseyan still) on 2/25/2011,"Mrs. FJ Pelzer contributed largely to erection of the union church (when other churches built their own, this group kept the building)"
+,First Baptist,Southern Baptist Convention,3rd Sunday in Jan. 1882,Pelzer,Reed Street (no number),Anderson,SC,,Fred A. Wood,92,"1, 4",,,NA,450,15,,3600,,,34.64114,82.45956,,,
+,Presbyterian Church,Presbyterian,10/29/1883,Pelzer,Lebby Street (no number),Anderson,SC,,Fred A. Wood,93,"6, 1, 4",,,8675,65,9,,1200,,,34.64225,82.45889,https://lebbystreetweddings.com/,Now Lebby St wedding chapel,"""Family of the President of the Pelzer Co. was the first Presbyterian family to take up their abode upon these, then barren, hills"" - president was Mr. Ellison A. Smyth"
+,Methodist Church,Methodist,1883,Pelzer,Lebby Street (no number),Anderson,SC,,Fred A. Wood,94,"6, 1, 3",2,,11750,612,NA,,5750,1,16,34.64239,82.46125,https://www.umdata.org/church?church=270782,on a charge,Mrs. FJ Pelzer gave the lot
+,Church of God,"Holiness (Headquarters Cleveland, Tenn.)",1920,Pelzer,1 mile N. of Pelzer S.C. No Street Name,Anderson,SC,,Fred A. Wood,95,6,,,1075,20,7,,175,,,34.6417,82.45658,,,
+,Church of God,"Holiness (Headquarters Cleveland, Tenn.)",1935,West Pelzer,No Street Name,Anderson,SC,,Fred A. Wood,96,6,,,1000,18,8,,155,,,34.64518,82.46792,,,
+,Wesleyan,Wesleyan Methodist,1916,Iva,No street address,Anderson,SC,,Fred A. Wood,110,"6, 4",1,,3400,34,20,,365,3,,34.30503,82.66321,,Merged with Fellowship Wesleyan Church in Iva in July 2011 to form Community Wesleyan Church; deeded to the Wesleyan Methodist Church by Jackson Mills on 12/6/1948; jackson mills owned parsonage,
+,Bethel,Methodist,1889,Iva,Mill Street,Anderson,SC,,Fred A. Wood,137,"6, 4",,,10150,360,NA,,1253,1,13,34.30503,82.66321,,,"Nearly all members worked in the mill, mill company takes a portion of their paycheck to pay the pastor"

@@ -1,0 +1,21 @@
+--Query 1: Pull all the churches in Anderson County and order them by their property value in descending order. Which churches have the highest property value? A follow up step would be to group by denomination.
+SELECT * FROM church WHERE city_id BETWEEN 25 AND 34 ORDER BY property_value DESC;
+
+
+--Query 2: Do a left join with city and church tables, results in two cities that have no churches - I don't believe this.
+SELECT 'Q2: cities with no churches' AS step;
+
+city LEFT JOIN church
+SELECT city.city_name
+FROM city
+LEFT JOIN church ON city.city_id = church.city_id
+WHERE church.church_id IS NULL;
+
+
+--Query 3: What is the total number of entries for each city (NOT county), and which area is the highest? Issue here: Spartanburg County is broken up into much smaller villages than Anderson and may be attributable to a discrepancy between reporters (lack of standardization - would need to consult recording instructions to confirm).
+SELECT city.city_name,
+COUNT(*) AS total_count
+FROM church
+JOIN city ON church.city_id = city.city_id
+GROUP BY church.city_id
+ORDER BY total_count DESC;

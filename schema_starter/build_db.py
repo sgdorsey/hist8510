@@ -46,6 +46,29 @@ def main():
         cursor.executescript(f.read())
     cursor.execute("PRAGMA foreign_keys = ON")   # executescript can reset it
 
+    import csv
+    SEED_FILES = [
+        ("seed/city.csv", "city",
+         ["city_id", "city_name", "county", "state"]),
+        ("seed/people.csv", "people",
+         ["people_id", "name", "type", "years_active"]),
+        ("seed/church.csv", "church",
+         ["church_id", "name_of_church", "year_organized", "county", "denomination", "property_value", "present_membership", "charter_membership", "city_id"]),
+        ("seed/church_people.csv", "church_people",
+         ["church_id", "people_id"]),
+    ]
+
+    for path, table, columns in SEED_FILES:
+        with open(path, encoding="utf-8-sig") as f:   # utf-8-sig strips Excel's BOM
+            # An empty cell becomes NULL, not the string "". That is what
+            # lets a nullable INTEGER column stay genuinely empty.
+            rows = [[(r[c] or None) for c in columns] for r in csv.DictReader(f)]
+        placeholders = ", ".join("?" for _ in columns)
+        cursor.executemany(
+            f"INSERT INTO {table} ({', '.join(columns)}) VALUES ({placeholders})", rows
+        )
+        print(f"  loaded {table:<16} {len(rows):>4} rows")
+
     conn.commit()
 
     # Show what got built, so you can see your schema took effect.
@@ -68,5 +91,7 @@ def main():
     print("Open it in DBcode to look at what you just made.")
 
 
-if __name__ == "__main__": #means that this entire file is only going to run if someone executes the file directly (it's common in python to import files into another one - this means that if you were to import this, the script would have acess to the constants but wouldn't run the main database function)
+if __name__ == "__main__":
     main()
+
+

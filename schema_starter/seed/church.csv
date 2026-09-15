@@ -1,0 +1,71 @@
+church_id,name_of_church,year_organized,county,denomination,property_value,present_membership,charter_membership,city_id
+1,Assembly of God,1936,Spartanburg,Assembly of God ,,,,1
+2,Chesnee Mill,1928,Spartanburg,Southern Baptist Convention,,,,2
+3,Shell Anderson Memorial,1933,Spartanburg,Methodist Episcopal South,,,,3
+4,Whitney,1888,Spartanburg,Methodist Episcopal South,,,,4
+5,Duncan,1875,Spartanburg,Southern Baptist Convention,,,,5
+6,Grace Methodist,1896,Abbeville,Methodist Episcopal South,,,,24
+7,Tucapau Wesleyan Methodist,1917,Spartanburg,Wesleyan Methodist,,,,7
+8,Pentecostal Holiness Tabernacle,1935,Spartanburg,Pentecostal Holiness,,,,19
+9,Saxon Methodist,1901,Spartanburg,Methodist Episcopal South,,,,9
+10,Lyman Methodist,1924,Spartanburg,Methodist Episcopal South,,,,10
+11,First Baptist Clifton,1881,Spartanburg,Southern Baptist Convention,,,,11
+12,Glendale Baptist,1876,Spartanburg,Southern Baptist Convention,,,,1
+13,Montgomery Memorial Methodist Episcopal,1883,Spartanburg,Methodist Episcopal South,,,,12
+14,Duncan Memorial,1888,Spartanburg,Methodist Episcopal South,,,,1
+15,Saxon Church of God,1928,Spartanburg,Church of God,,,,9
+16,Olivet Foursquare Gospel,1930,Spartanburg,International Four Square Gospel,,,,13
+17,Apalache,1906,Spartanburg,Southern Baptist Convention,,,,14
+18,Whitney Baptist,1889,Spartanburg,Southern Baptist Convention,,,,4
+19,Drayton Methodist,1905,Spartanburg,Methodist Episcopal South,,,,1
+20,Valley Falls Baptist,1920,Spartanburg,Southern Baptist Convention,,,,15
+21,Beaumont,1905,Spartanburg,Southern Baptist Convention,,,,1
+22,Calhoun Falls Methodist,1908,Abbeville,Methodist Episcopal South,,,,16
+23,Fairmont Baptist,1895,Spartanburg,Southern Baptist Convention,,,,17
+24,Tucapau Baptist,1893,Spartanburg,Southern Baptist Convention,,,,7
+25,Pacolet Mills Pentecostal Holiness,1935,Spartanburg,Pentecostal Holiness,,,,12
+26,Church of God,1936,Spartanburg,Pentecostal Holiness,2000,,18,18
+27,Cole Chapel,12/28/08,Spartanburg,Free Will Baptist,,,,19
+28,Converse Methodist,1896,Spartanburg,Methodist Episcopal South,3500,87,18,20
+29,Cowpens Mills (formerly Central),1901,Spartanburg,Southern Baptist Convention,2000,132,30,21
+30,Gospel First,1936,Spartanburg,First Assembly of God,,,,1
+31,Inman Mills,11/15/25,Spartanburg,Methodist Episcopal South,16000,227,41,22
+32,Ligon Memorial Baptist,1907,Spartanburg,Southern Baptist Convention,25000,635,58,19
+33,Montgomery Chapel,1923,Spartanburg,National Baptist,1500,40,,23
+34,Pacolet Mills Baptist,1884,Spartanburg,Southern Baptist Convention,"60,000",,,12
+35,The Ch. Of God,2/3/38,Abbeville,"Church of God (of which A.J. Tomlinson is overseer, Cleavland, Tenn.)",,15,13,24
+36,Tucapau M. E.,1894,Spartanburg,Methodist Episcopal South,"6,000",,,7
+37,Whitney Free Will,1921,Spartanburg,Free Will Baptist,3000,71,15,4
+38,Orrville Methodist,Oct-00,Anderson,Methodist Episcopal South,"15,000",250,12,25
+39,Orrville Baptist,1900,Anderson,Southern Baptist Convention,23500,430,NA,25
+40,Gluck Mill Methodist,1904,Anderson,Methodist Episcopal South,4500,115,17,25
+41,Gluck Mill Baptist,1904,Anderson,Southern Baptist Convention,4500,270,23,25
+42,Toxaway,1900,Anderson,Methodist Episcopal South,10000,175,NA,25
+43,Belton Pres,1788,Anderson,Presbyterian U.S.,17500,NA,NA,26
+44,Church of God,1921,Anderson,"Church of God (Headquarters Cleveland, Tenn.)",7675,,,27
+45,Chiquola Baptist,1905,Anderson,Southern Baptist Convention,18200,341,12,27
+46,Honea Path Baptist,1869,Anderson,Southern Baptist Convention,,,,27
+47,Trinity Methodist,NA,Anderson,Methodist Episcopal South,,,,27
+48,Chiquola Methodist,1907,Anderson,Methodist Episcopal South,10000,126,9,27
+49,Bethel,1892,Anderson,Methodist Episcopal South,35000,,,25
+50,Riverside Baptist Church,1901,Anderson,Southern Baptist Convention,15000,652,NA,25
+51,Holy Trinity Kreps Memorial,1936,Anderson,Lutheran,20000,55,30,25
+52,Second Baptist,1892,Anderson,Southern Baptist Convention,15750,820,22,25
+53,Oakwood,1906,Anderson,Southern Baptist Convention,10520,750,NA,25
+54,Pendleton Second Baptist,21-Feb,Anderson,Southern Baptist Convention,2000,105,29,28
+55,Church of God,1927,Anderson,"Holiness (Headquarters Cleveland, Tenn.)",2500,51,19,29
+56,The Church of God,1939,Anderson,Holliness Headquarters in Tenn.,1650,27,8,30
+57,Williamston Second Baptist,1903,Anderson,Southern Baptist Convention,8000,285,8,30
+58,Wesleyan Methodist,1903,Anderson,Wesleyan Methodist,1250,23,NA,30
+59,Piedmont Presbyterian,05/18/1880,Anderson,Pres. US,10000,175,9,31
+60,Wesleyan Methodist,1904,Anderson,Wesleyan Methodist,2425,64,4,31
+61,Williamston Mill Methodist,1904,Anderson,Methodist,7000,14,5,30
+62,Tabernacle,08/29/1897,Anderson,Southern Baptist Convention,11000(?),537,30,32
+63,Wesleyan Methodist,1886,Anderson,Wesleyan Methodist,11050,215,NA,32
+64,First Baptist,3rd Sunday in Jan. 1882,Anderson,Southern Baptist Convention,NA,450,15,32
+65,Presbyterian Church,10/29/1883,Anderson,Presbyterian,8675,65,9,32
+66,Methodist Church,1883,Anderson,Methodist,11750,612,NA,32
+67,Church of God,1920,Anderson,"Holiness (Headquarters Cleveland, Tenn.)",1075,20,7,32
+68,Church of God,1935,Anderson,"Holiness (Headquarters Cleveland, Tenn.)",1000,18,8,33
+69,Wesleyan,1916,Anderson,Wesleyan Methodist,3400,34,20,34
+70,Bethel,1889,Anderson,Methodist,10150,360,NA,34
