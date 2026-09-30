@@ -32,7 +32,7 @@ from google.genai import types
 
 # Name of the folder inside ocr-results/ where this run is saved.
 # Change it for each experiment, e.g. "high-thinking" or "2.5-lite".
-RUN_NAME = "baseline"
+RUN_NAME = "time-change"
 
 MODEL = "gemini-3.5-flash-lite"
 

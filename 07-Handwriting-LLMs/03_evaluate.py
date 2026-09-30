@@ -32,7 +32,7 @@ import jiwer
 
 SCRIPT_DIR = Path(__file__).parent
 GROUND_TRUTH_FOLDER = SCRIPT_DIR / "ground-truth"
-RESULTS_FOLDER = SCRIPT_DIR / "ocr-results"
+RESULTS_FOLDER = SCRIPT_DIR / "ocr-results/time-change"
 EVAL_FOLDER = SCRIPT_DIR / "evaluation"
 
 

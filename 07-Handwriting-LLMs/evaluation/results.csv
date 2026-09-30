@@ -1,0 +1,5 @@
+run,page,raw_cer,raw_wer,normalized_cer,normalized_wer
+baseline,IMG_0376,0.021,0.1667,0.0028,0.0308
+baseline,ALL PAGES,0.021,0.1667,0.0028,0.0308
+prompt-change,IMG_0376,0.0184,0.1667,0.0055,0.0462
+prompt-change,ALL PAGES,0.0184,0.1667,0.0055,0.0462

@@ -1,0 +1,54 @@
+Word alignment. REF = ground truth, HYP = transcription.
+S = substitution, D = deletion, I = insertion, * = nothing there.
+
+===== RAW (case and punctuation count) =====
+substitutions=5  deletions=0  insertions=2  correct=60
+
+REF: Liberty File September 9th 10:30 ** * A.M.- 1941.F.D. Dear Eleanor
+HYP: Liberty File September 9th 10:30 AM - 1941.      F.D. Dear Eleanor
+                                       I I     S         S             
+
+REF: Roosevelt. Recently, I scanned your article, concerning conscription for
+HYP: Roosevelt, Recently, I scanned your article, concerning conscription for
+              S                                                              
+
+REF: girls.  Defintely, your idea is superb, for if our government is not
+HYP: girls. Definitely, your idea is superb, for if our government is not
+                      S                                                  
+
+REF: interest- ed in our womanhood, then who is?? I do not believe any woman
+HYP: interest- ed in our womanhood, then who is?? I do not believe any woman
+                                                                            
+
+REF: would intentionally sell her soul for a mess of pottage. I am so in hopes
+HYP: would intentionally sell her soul for a mess of pottage, I am so in hopes
+                                                            S                 
+
+REF: our girl youth shall be advised
+HYP: our girl youth shall be advised
+
+===== NORMALIZED (words only) =====
+substitutions=2  deletions=0  insertions=1  correct=63
+
+REF: liberty file september 9th 1030 am **** 1941fd dear eleanor roosevelt
+HYP: liberty file september 9th 1030 am 1941     fd dear eleanor roosevelt
+                                           I      S                       
+
+REF: recently i scanned your article concerning conscription for girls
+HYP: recently i scanned your article concerning conscription for girls
+                                                                      
+
+REF:  defintely your idea is superb for if our government is not interest ed in
+HYP: definitely your idea is superb for if our government is not interest ed in
+              S                                                                
+
+REF: our womanhood then who is i do not believe any woman would intentionally
+HYP: our womanhood then who is i do not believe any woman would intentionally
+                                                                             
+
+REF: sell her soul for a mess of pottage i am so in hopes our girl youth shall
+HYP: sell her soul for a mess of pottage i am so in hopes our girl youth shall
+                                                                              
+
+REF: be advised
+HYP: be advised
