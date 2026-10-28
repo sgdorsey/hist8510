@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+models/
+plots/
+aper-clean
+aper-clean.zip
+__MACOSX/
