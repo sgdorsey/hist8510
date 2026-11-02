@@ -32,8 +32,8 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Change these two lines for each model -------------------------------------
 
-CORPUS_FOLDER = SCRIPT_DIR / "aper-clean" / "1940-1959"
-MODEL_NAME = "1940-1959"
+CORPUS_FOLDER = SCRIPT_DIR / "sca-clean" / "1861-1865"
+MODEL_NAME = "1861-1865"
 
 # --- Training settings (keep them the same for every model you'll compare) -----
 
@@ -97,9 +97,10 @@ def main():
     model.save(str(model_path))
     print(f"\nSaved {model_path.relative_to(SCRIPT_DIR)}")
 
-    # A quick check that the model learned something sensible
-    print("\nQuick check, the 8 words closest to 'exercise':")
-    for word, score in model.wv.most_similar("exercise", topn=8):
+    # A quick check that the model learned something sensible.
+    # Words are lowercased before training, so the query must be lowercase too.
+    print("\nQuick check, the 8 words closest to 'methodist':")
+    for word, score in model.wv.most_similar("methodist", topn=8):
         print(f"  {word:20} {score:.3f}")
 
 

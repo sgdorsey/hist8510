@@ -34,12 +34,12 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-MODEL_NAME = "1920-1939"              # which model in models/ to explore
+MODEL_NAME = "1861-1865"              # which model in models/ to explore
 
-WORD = "dress"                      # 1. nearest words to this word (also used in 3.)
+WORD = "death"                      # 1. nearest words to this word (also used in 3.)
 TOP_N = 15
 
-SEED_WORDS = ["basketball", "baseball", "football", "tennis"]   # 2. a semantic field
+SEED_WORDS = ["church", "Methodist", "congregation", "minister"]   # 2. a semantic field
 FIELD_SIZE = 20
 
 PLOT_COUNT = 40                       # 3. how many of WORD's nearest neighbors to plot
