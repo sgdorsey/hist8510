@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+output/
+on_the_books_text_v2/
+on_the_books_text_v2.zip
+*.pdf
+*.jpeg
+*.jpg
+__MACOSX/

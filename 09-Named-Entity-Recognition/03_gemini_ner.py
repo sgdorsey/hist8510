@@ -45,9 +45,7 @@ LABELS = [
 ]
 
 # What the model should know about the source (Hiltmann et al.: context matters)
-CONTEXT = """The text is from a 1937 report on the recreation program of the Works
-Progress Administration (WPA), a New Deal agency. It summarizes monthly activities
-county by county in Alabama (February 1937) and Arkansas (March 1937). The pages
+CONTEXT = """The text is from a 1900-1927 run of the Southern Christian Advocate, which was the newspaper of the Methodist Episcopal Church, South in South Carolina. The pages
 were typed and then OCR'd, so the text contains OCR errors, stray page numbers,
 and some markup such as <u>. The report reflects segregation: it uses the period
 terms 'colored' and 'Negro' for programs and facilities for Black residents."""
